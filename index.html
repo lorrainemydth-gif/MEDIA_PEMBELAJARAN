@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600;900&family=Poppins:wght@600;700;900&display=swap" rel="stylesheet">
     <style>
         * { font-family: 'Fredoka', sans-serif; }
-        /* Background replaced with LKPD image (assets/lkpd-v3.png) */
-        body { background: url('assets/lkpd-v3.png') center/cover no-repeat; }
+        /* Background: use LKPD design from repo (raw GitHub). Keeps local fallback if needed. */
+        body { background: url('https://raw.githubusercontent.com/lorrainemydth-gif/MEDIA_PEMBELAJARAN/3b9f4f62282a6d3295520df7ccbd2c964d8ce135/LKPD%20SISWA%20MEDIA%20PEMBELAJARAN%20ICT%20%282%29.png') center/cover no-repeat, url('assets/lkpd-v3.png') center/cover no-repeat; background-color: #ffffff; }
         /* Subtle translucent overlay for readability */
         body::before { content: ""; position: fixed; inset: 0; background: rgba(255,255,255,0.15); pointer-events: none; }
         .card { background: white; border: 3px solid #000; border-radius: 1rem; box-shadow: 8px 8px 0px rgba(0,0,0,0.2); }
